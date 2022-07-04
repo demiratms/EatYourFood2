@@ -1,0 +1,14 @@
+{
+  "name": "Eat Your Food 2",
+  "description": "It encourages children to eat while watching videos via the browser",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "author": "Sinan Demirat",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Scrapt"
+  }
+}
